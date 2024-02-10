@@ -1,0 +1,26 @@
+.sectionabout{
+    
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.line{
+
+    height: 4px;
+    width: 80px;
+background-color: white;
+}
+.centere{
+    justify-content: center;
+    align-items: flex-end;
+    
+} .sections{
+    margin-top: 100px;
+    height: 550px;
+    background-color: #1ABC9C;
+   } 

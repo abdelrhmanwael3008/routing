@@ -1,0 +1,29 @@
+
+<section>
+    <div class="container pt-5">
+        <div class="title text-center pt-5">
+            <h2 class="fw-bolder fs-1">CONATCT SECTION</h2>
+            <div class="d-flex justify-content-center align-items-center myicon position-relative mx-auto  mt-4">
+                   
+                <i  class="fas fa-star me-3  ">
+    
+                </i>
+               
+            </div>
+        </div>
+
+        <form class="w-50 p-3 mx-auto mt-5 ng-valid ng-dirty ng-touched">
+            <label [ngClass]="name == ''? 'top-0-top': 'top-0' "  class="position-relative top-0-top " >user Name : </label>
+            <input [(ngModel)]="name"     id="userName" type="text" placeholder="userName" name="userName" class="form-control border-0 border-bottom py-3 position-relative ng-valid ng-dirty ng-touched">
+            <label [ngClass]="age == ''? 'top-0-top': 'top-0' " class="position-relative top-0-top"  >user Age : </label>
+            <input [(ngModel)]="age" id="userAge" type="text" placeholder="userAge" name="userAge" class="form-control border-0 border-bottom py-3 position-relative ng-valid ng-dirty ng-touched" >
+            <label [ngClass]="mail == ''? 'top-0-top': 'top-0' " class="position-relative top-0-top"  >user Email : </label>
+            <input [(ngModel)]="mail" id="userEmail" type="email" placeholder="userEmail" name="userEmail" class="form-control border-0 border-bottom py-3 position-relative ng-valid ng-dirty ng-touched">
+            <label [ngClass]="password == ''? 'top-0-top': 'top-0' "  class="position-relative top-0-top"  >user Password : </label>
+            <input [(ngModel)]="password"  id="userPassword" type="password" placeholder="userPassword" name="userPassword" class="form-control border-0 border-bottom py-3 position-relative ng-valid ng-dirty ng-touched">
+            <button class="btn mt-4 text-white" style="background-color: #1abc9c;"> send Message </button>
+        </form>
+
+
+    </div>
+</section>

@@ -1,0 +1,33 @@
+h1{
+    margin-top: 110px;
+    color:#2C3E50;
+    font-weight: 700;
+}
+.line{
+
+    height: 4px;
+    width: 80px;
+background-color: #2C3E50;
+margin-top: 10px;
+}
+.d-flex {
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+.sass{
+color: #2C3E50;
+}
+
+label{
+    transition-duration: 0.2s;
+}
+.top-0-top{
+    top: 20px;
+    color: #1ABC9C;
+  
+}
+.top-0{
+    top: -10px;
+    color: #1ABC9C;
+}

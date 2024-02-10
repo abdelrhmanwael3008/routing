@@ -1,0 +1,27 @@
+.footer{
+  
+    background-color: #202b34;
+    color: white;
+  
+}
+
+.footerrow{
+    height: 300px;
+  
+   align-items: center;
+   background-color: #273e55;
+}
+.pfooter{
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+}
+.icon {
+    border: 1px white solid;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;
+}

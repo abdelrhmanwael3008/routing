@@ -1,0 +1,17 @@
+.line{
+
+    height: 4px;
+    width: 80px;
+background-color: white;
+margin-top: 10px;
+}
+.d-flex {
+    display: flex!important;
+    justify-content: center;
+  
+}
+ .sections{
+    margin-top: 100px;
+    height: 550px;
+    background-color: #1ABC9C;
+  } 
